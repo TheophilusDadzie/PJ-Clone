@@ -390,9 +390,82 @@ span{
     margin-top: 1rem;
     margin-left: 90px;
     margin-right: 80px;
+    margin-bottom: 7rem;
 }
 
 #contact h2 {
     font-size: 32px;
     margin-bottom: 3rem;
 }
+
+.contact-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.info1 p{
+    font-size: 20px;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.contact-icons i {
+    /* background-color: #7562E0; */
+    color: #7562E0;
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+/* forms */
+.info2 label {
+    font-size: 26px;
+}
+
+.label {
+    margin-bottom: 2rem;
+}
+
+button{
+    color: white;
+    background-color: #7562E0;
+    border-radius: 10px;
+    /* padding: .9rem 2rem; */
+    width: 174px;
+    height: 50px;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 1rem; 
+}
+
+input {
+    width: 472px;
+    height: 62px;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    outline: none;
+    color: white;
+    background-color: #080813;
+    border: 1px solid #080813;
+}
+
+input[type="text"], input[type="email"] {
+    font-size: 18px;
+    padding-left: 1rem; 
+}
+
+textarea[placeholder="Message"] {
+    font-size: 20px;
+    padding-left: 1rem;
+    padding-top: 32px;
+}
+
+textarea{
+    width: 472px;
+    height: 98px;
+    border-radius: 8px;
+    outline: none;
+    color: white;
+    background-color: #080813;
+    border: 1px solid #080813;
+}
+
