@@ -383,3 +383,16 @@ span{
     color: white;
     margin-left: .7rem;
 }
+
+/* contact section */
+
+#contact{
+    margin-top: 1rem;
+    margin-left: 90px;
+    margin-right: 80px;
+}
+
+#contact h2 {
+    font-size: 32px;
+    margin-bottom: 3rem;
+}
