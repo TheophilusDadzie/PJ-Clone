@@ -82,6 +82,7 @@ span{
     margin-bottom: 1.5rem;
     letter-spacing: 1px;
     line-height: 1.5rem;
+    width: 70%;
 }
 
 .home img {
@@ -414,6 +415,8 @@ span{
     color: #7562E0;
     font-size: 2rem;
     margin-right: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
 }
 
 /* forms */
@@ -469,3 +472,41 @@ textarea{
     border: 1px solid #080813;
 }
 
+/* footer */
+footer {
+    margin-top: 1rem;
+    margin-left: 90px;
+    margin-right: 80px;
+}
+.p-text {
+    display: flex;
+}
+
+.p-text p {
+    margin-right: 70px;
+    font-size: 20px;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+}
+
+
+/*========= Responsiveness =========*/
+
+@media screen and (min-width: 1200px) {
+    .home-content h3 {
+    margin-bottom: 1rem;
+    font-size: 32px;
+}
+
+.home-content h1 {
+    font-size: 52px;
+}
+
+.home-content p {
+    font-size: 20px;
+    margin-bottom: 1.5rem;
+    /* letter-spacing: 1px; */
+    line-height: 2rem;
+}
+
+}
